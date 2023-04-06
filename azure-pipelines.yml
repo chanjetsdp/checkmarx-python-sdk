@@ -21,9 +21,6 @@ steps:
     versionSpec: '$(python.version)'
   displayName: 'Use Python $(python.version)'
 
-- task: Delay@1
-  inputs:
-    delayForMinutes: '1'
 
 - script: |
     echo abc
